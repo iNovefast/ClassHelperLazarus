@@ -1,0 +1,167 @@
+object MainForm: TMainForm
+  Left = 629
+  Height = 719
+  Top = 190
+  Width = 1121
+  Caption = 'Exemplo DatasetHelpers'
+  ClientHeight = 719
+  ClientWidth = 1121
+  DesignTimePPI = 120
+  LCLVersion = '3.6.0.0'
+  object btnCalcularForEach: TButton
+    Left = 296
+    Height = 31
+    Top = 16
+    Width = 136
+    Caption = 'Calcular Helper'
+    TabOrder = 0
+    OnClick = btnCalcularForEachClick
+  end
+  object DBGrid1: TDBGrid
+    Left = 30
+    Height = 608
+    Top = 72
+    Width = 850
+    Color = clWindow
+    Columns = <>
+    DataSource = dtsHelper
+    TabOrder = 1
+  end
+  object btnAdicionar: TButton
+    Left = 24
+    Height = 31
+    Top = 16
+    Width = 94
+    Caption = 'Adicionar'
+    TabOrder = 2
+    OnClick = btnAdicionarClick
+  end
+  object btnCalcularNormal: TButton
+    Left = 144
+    Height = 31
+    Top = 16
+    Width = 134
+    Caption = 'Calcular Normal'
+    TabOrder = 3
+    OnClick = btnCalcularNormalClick
+  end
+  object btnInverter: TButton
+    Left = 464
+    Height = 31
+    Top = 16
+    Width = 142
+    Caption = 'Inverter'
+    TabOrder = 4
+    OnClick = btnInverterClick
+  end
+  object btnMarcarCondicao: TButton
+    Left = 717
+    Height = 31
+    Top = 16
+    Width = 156
+    Caption = 'Marcar/Desmarcar'
+    TabOrder = 5
+    OnClick = btnMarcarCondicaoClick
+  end
+  object ckbCalcular: TCheckBox
+    Left = 624
+    Height = 24
+    Top = 20
+    Width = 74
+    Caption = 'Calcular'
+    TabOrder = 6
+  end
+  object cdsHelper: TMemDataset
+    FieldDefs = <    
+      item
+        Name = 'Cod'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'Descricao'
+        DataType = ftString
+        Size = 10
+      end    
+      item
+        Name = 'Qtd'
+        DataType = ftInteger
+      end    
+      item
+        Name = 'Valor'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'Total'
+        DataType = ftCurrency
+      end    
+      item
+        Name = 'Calcular'
+        DataType = ftBoolean
+      end>
+    Left = 272
+    Top = 184
+    object cdsHelperCod: TLongintField
+      FieldKind = fkData
+      FieldName = 'Cod'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object cdsHelperDescricao: TStringField
+      FieldKind = fkData
+      FieldName = 'Descricao'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 10
+    end
+    object cdsHelperQtd: TLongintField
+      FieldKind = fkData
+      FieldName = 'Qtd'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+    end
+    object cdsHelperValor: TCurrencyField
+      FieldKind = fkData
+      FieldName = 'Valor'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Precision = 2
+    end
+    object cdsHelperTotal: TCurrencyField
+      FieldKind = fkData
+      FieldName = 'Total'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Precision = 2
+    end
+    object cdsHelperCalcular: TBooleanField
+      FieldKind = fkData
+      FieldName = 'Calcular'
+      Index = 5
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      DisplayValues = 'True;False'
+    end
+  end
+  object dtsHelper: TDataSource
+    DataSet = cdsHelper
+    Left = 184
+    Top = 184
+  end
+end

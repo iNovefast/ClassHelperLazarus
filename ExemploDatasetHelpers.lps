@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="ExemploDatasetHelpers.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="27"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="48"/>
+        <CursorPos X="27" Y="48"/>
+        <FoldState Value=" T3jN0KH"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="datasethelpers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="DatasetHelpers"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="35" Y="32"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Delphi\HtecDatasetHelper.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="21"/>
+        <UsageCount Value="9"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\fpc\3.2.2\source\packages\fcl-db\src\memds\memds.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <UsageCount Value="9"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="35" Column="15" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="114" Column="37" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="35" Column="28" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="116" Column="12" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="128" Column="39" TopLine="52"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="129" Column="57" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="52" Column="48" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="87" Column="47" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="59" Column="41" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="53" Column="43" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="59" Column="53" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="17" Column="15" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="54" Column="20" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="24" Column="15" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="82" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="31" Column="15" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="96" Column="3" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="32" Column="15" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="101" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="31" Column="15" TopLine="17"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="96" Column="10" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="32" Column="15" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="96" Column="30" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="32" Column="15" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="101" Column="19" TopLine="93"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="24" Column="15" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="datasethelpers.pas"/>
+        <Caret Line="88" Column="3" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="60" Column="46" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="59" Column="3" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="64" Column="32" TopLine="47"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
